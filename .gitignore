@@ -1,0 +1,26 @@
+# Secrets and local data
+.env
+.env.*
+*.db
+*.sqlite3
+
+# Node / frontend
+node_modules/
+dist/
+build/
+
+# Python / backend (if applicable)
+__pycache__/
+venv/
+.venv/
+
+# Java / Spring Boot (if applicable)
+target/
+*.class
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/venvvenv/
+**/venv*/
